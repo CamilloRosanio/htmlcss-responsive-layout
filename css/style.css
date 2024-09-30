@@ -251,6 +251,12 @@ footer a {
     font-size: .8rem;
 }
 
+footer nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+
 footer ul {
     display: flex;
     flex-wrap: wrap;
@@ -318,11 +324,60 @@ footer ul {
 
 /* SCREEN / (L) Large */
 @media screen and (min-width:992px) {
+
+    .container {
+        max-width: 1000px;
+    }
+    
+    /* SECTION TIRAMISU */
     
     .social_name {
         display:inline;
         color: black;
         font-weight:700;
+    }
+
+
+    /* SECTION TIRAMISU */
+
+    .video-card {
+        display:flex;
+        justify-content: center;
+        margin: 1.5em 0;
+    }
+
+    .video-container {
+        flex: 1 0 55%;
+    }
+
+    .tiramisu .content {
+        margin: 0;
+        flex: 1 0 16%;
+    }
+
+    .video-card ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+
+    /* FOOTER */
+
+    footer .container {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 0.8rem;
+    }
+
+    footer .address {
+        justify-content: start;
+        align-items: start;
+    }  
+
+    footer ul {
+        flex-wrap: nowrap;
     }
 }
 
