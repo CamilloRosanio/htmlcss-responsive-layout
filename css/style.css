@@ -16,6 +16,11 @@ h1 {
     text-shadow: 1px 1px 2px #8b8b8b;
 }
 
+h2 {
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
 h5 {
     font-size:.8rem;
 }
@@ -92,6 +97,40 @@ main {
 .video {
     width: 100%;
     aspect-ratio: 1.75;
+}
+
+/* SECTION PRESENTATION */
+
+.presentation {
+    padding: 2rem 0;
+}
+
+.presentation .content {
+    line-height: 1.5rem;
+    width: 100%;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+hr {
+    width: 15%;
+    height:2px;
+    background-color:#fe9615;
+    margin: 0.7rem 0;
+    border: 0px;
+}
+
+.img_container {
+    width: 60%;
+    margin: 0.8rem 0;
+
+}
+
+.presentation img {
+    width: 100%
 }
 
 
@@ -231,7 +270,7 @@ footer ul {
 
 .debug {
     background-color: aquamarine;
-    border: 1px dashed red;
+    border: 2px dashed red;
     min-height: 20px;
     padding: 10px;
 }
