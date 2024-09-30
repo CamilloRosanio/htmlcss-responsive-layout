@@ -21,12 +21,25 @@ h2 {
     font-weight: 500;
 }
 
+h3 {
+    color: #4e3969;
+    font-size: 1.8rem;
+    font-weight: bold;
+    margin-bottom:0.8rem;
+}
+
+h4 {
+    color:#8b8b8b;
+    font-weight: normal;
+    margin-bottom: 0.3rem;
+}
+
 h5 {
-    font-size:.8rem;
+    font-size:.9rem;
 }
 
 p {
-    font-size: 0.8rem;
+    font-size: 0.9rem;
 }
 
 
@@ -54,6 +67,10 @@ img {
     display: block;
 }
 
+iframe {
+    display: block;
+}
+
 
 /**********************************************************
 | # UTILS
@@ -68,6 +85,15 @@ img {
         padding: 0 10px;
         width: 480px;
         max-width: 100%;
+    }
+
+    .button_main {
+        padding: 0.4rem 0.8rem;
+        background-color: white;
+        border: 1px solid white;
+        border-radius: 35px;
+        box-shadow: 1px 1px 4px #b1b1b1;
+
     }
 
 
@@ -88,21 +114,73 @@ header .container {
 **********************************************************/
 
 main {
-    background-color: #e4e4e4;
+    background-color: #ebebeb;
+    padding: 1rem 0;
 }
 
 
 /* SECTION TIRAMISU */
 
+.tiramisu .container {
+    padding-bottom: 1.5rem;
+}
+
 .video {
     width: 100%;
-    aspect-ratio: 1.75;
+    aspect-ratio: 1.8;
 }
+
+.tiramisu .content {
+    background-color: white;
+    box-shadow: 1px 1px 4px #b1b1b1;
+
+    padding: 1.2rem;
+    margin-bottom:1.5rem;
+}
+
+.tiramisu .content h3 {
+    color: black;
+    font-size: 1.2rem;
+}
+
+.tiramisu li {
+    font-size: 0.9rem;
+    line-height: 2.2rem;
+}
+
+.social-buttons_container {
+    display:flex;
+    justify-content:space-between;
+    align-items: center;
+
+
+}
+
+.facebook {
+    color:#1a77f3;
+}
+
+.twitter {
+    color:#009eff;
+}
+
+.instagram {
+    color:#dc3da3;
+}
+
+.pinterest {
+    color:#e62222;
+}
+
+.youtube {
+    color:#e62222;
+}
+
 
 /* SECTION PRESENTATION */
 
 .presentation {
-    padding: 2rem 0;
+    padding-bottom: 2rem;
 }
 
 .presentation .content {
@@ -119,7 +197,7 @@ hr {
     width: 15%;
     height:2px;
     background-color:#fe9615;
-    margin: 0.7rem 0;
+    margin: 0.8rem 0;
     border: 0px;
 }
 

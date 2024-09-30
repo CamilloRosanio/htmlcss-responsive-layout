@@ -8,10 +8,10 @@
 
 <head>
     <meta charset="UTF-8">
-    
+
     <!-- STRING MEDIAQUERY -->
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <!-- TITOLO TAB -->
         <title>Giallo Booleano</title>
 
@@ -24,7 +24,7 @@
         <meta name="keywords" content="keyword1, keyword2, keyword3">
 
     <!-- FONT -->
-    
+
         <!-- Nerko One -->
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -35,8 +35,11 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Nerko+One&display=swap" rel="stylesheet">
 
+    <!-- FONT AWESOME LIBRARY -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <!-- STYLE -->
-        <link rel="stylesheet" href="./css/style.css"> 
+        <link rel="stylesheet" href="./css/style.css">
 
     <!-- CSS MEDIAQUERY (Separato) -->
         <!-- ***FACOLTATIVO*** -->
@@ -49,53 +52,60 @@
 **********************************************************-->
 
 <body>
-    
+
     <!-- # HEADER -->
     <header>
         <div class="container">
             <h1>GIALLO BOOLEANO</h1>
         </div>
-    </header> 
+    </header>
 
 
     <!-- # MAIN -->
     <main>
-        
+
         <!-- SECTION TIRAMISU -->
         <section class="tiramisu">
-            <div class="container debug">
-                
+            <div class="container">
+
                 <h4>DOLCI E DESSERTS</h2>
                 <h3>Tiramisù</h3>
 
                 <!-- YOUTUBE VIDEO -->
-                <div class="debug">
-                    <iframe
-                        class="video debug"
-                        width="420"
-                        height="315"
-                        src="https://www.youtube.com/watch?v=JVT900H6s0g" 
-                        frameborder="0">
+                <div>
+                    <iframe 
+                        class="video"     
+                        src="https://www.youtube.com/embed/JVT900H6s0g?si=AaTnQWaCfZJydn5x" 
+                        title="YouTube video player" 
+                        frameborder="0" 
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+                        referrerpolicy="strict-origin-when-cross-origin" 
+                        allowfullscreen>
                     </iframe>
                 </div>
 
                 <!-- INFO RICETTA -->
-                <div>
+                <div class="content">
+
                     <h3>In breve</h3>
+
                     <ul>
-                        <li>info</li>
-                        <li>info</li>
-                        <li>info</li>
+                        <li>Difficoltà: <strong>Facile</strong></li>
+                        <li>Tempo: <strong>40 min</strong></li>
+                        <li>Porzione per: <strong>8 persone</strong></li>
+                        <li>Costo: <strong>contenuto</strong></li>
+                        <li><strong>Note</strong>: +2 ore di riposo in frigo</li>
                     </ul>
+
                 </div>
 
                 <!-- SOCIAL BUTTONS -->
-                <div>
-                    <button>button</button>
-                    <button>button</button>
-                    <button>button</button>
-                    <button>button</button>
-                    <button>button</button>
+                <div class="social-buttons_container">
+                    <button class="button_main facebook"><i class="fa-brands fa-facebook"></i></button>
+                    <button class="button_main twitter"><i class="fa-brands fa-twitter"></i></button>
+                    <button class="button_main instagram"><i class="fa-brands fa-instagram"></i></button>
+                    <button class="button_main pinterest"><i class="fa-brands fa-pinterest"></i></button>
+                    <button class="button_main youtube"><i class="fa-brands fa-youtube"></i></button>
                 </div>
 
             </div>
@@ -104,32 +114,31 @@
         <!-- SECTION PRESENTATION -->
          <section class="presentation">
             <div class="container">
-                
+
                 <h2>PRESENTATION</h2>
                 <hr>
-                
+
                 <div class="content">
-                    
+
                     <div class="img_container">
                         <img src="./img/tiramisu.jpg" alt="tiramisù">
                     </div>
 
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Error atque nulla ullam quisquam tempora maxime, <strong>Marsala wine</strong> suscipit saepe earum rem velit molestias aliquid laboriosam asperiores veniam dicta animi magni <strong>Tiramisù</strong> laudantium!
                     Quo, alias aspernatur aut dicta neque iure. Numquam accusamus illo debitis et aperiam similique a commodi quasi. Non veniam <strong>best Italian dessert</strong> in maxime, similique a facere sunt, dignissimos omnis ab officiis aliquid.
-                    Expedita provident dolorum nobis sapiente harum molestiae temporibus unde ipsam debitis, modi corrupti sunt, optio veniam accusamus ullam, vitae inventore id. Maxime, sit! Harum aliquid accusamus sint cupiditate nulla tempore.
-                    Impedit delectus molestias quibusdam vel tempora! Dicta vel nesciunt tenetur. Voluptatum tenetur sapiente maiores ducimus laudantium, corrupti pariatur minima eos molestias quae et. Perferendis illo pariatur quisquam, vitae mollitia accusantium!</p>
+                    Expedita provident dolorum nobis sapiente harum molestiae temporibus unde ipsam debitis, modi corrupti sunt, optio veniam accusamus ullam, vitae inventore id. Maxime, sit! Harum aliquid accusamus sint cupiditate nulla tempore.</p>
                 </div>
 
             </div>
          </section>
-        
+
     </main>
 
 
     <!-- # FOOTER -->
     <footer>
         <div class="container">
-            
+
             <div class="address">
                 <h5>&#9400 2021 Giallo Booleano S.p.a.</h5>
                 <p>Via Tal dei tali, 10 - 88046 Lamezia Terme - VAT 1234567890</p>
