@@ -213,13 +213,8 @@ hr {
 }
 
 .img_container {
-    width: 60%;
+    width:60%;
     margin: 0.8rem 0;
-
-}
-
-.presentation img {
-    width: 100%
 }
 
 
@@ -273,7 +268,7 @@ footer ul {
 | # MEDIAQUERY / MOBILE FIRST
 **********************************************************/
 
-/* SCREEN / (XS) Small */
+/* SCREEN / (XS) Extra-Small */
 @media screen and (min-width:500px) {
     
     .container {
@@ -293,6 +288,16 @@ footer ul {
 
     .tiramisu li {
         flex: 0 0 30%;
+    }
+
+}
+
+
+/* SCREEN / (S) Small */
+@media screen and (min-width:768px) {
+    
+    .img_container {
+        float: left;
     }
 
 }
@@ -325,8 +330,21 @@ footer ul {
 /* SCREEN / (L) Large */
 @media screen and (min-width:992px) {
 
-    .container {
+    main {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    main .container {
         max-width: 1000px;
+    }
+
+
+    /* HEADER */
+
+    header .container {
+        justify-content: start;
     }
     
     /* SECTION TIRAMISU */
